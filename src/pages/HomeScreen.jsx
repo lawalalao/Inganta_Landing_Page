@@ -1,13 +1,38 @@
-import Navbar from "../components/common/Navbar"
+import Navbar from "../components/common/NavbarWrapper"
+import HeroWrapper from "../components/home/HeroWrapper"
+import FeatureWrapper from "../components/home/FeatureWrapper"
+import AboutWrapper from "../components/home/AboutWrapper"
+import TestimonyWrapper from "../components/home/TestimonyWrapper"
+import ContactWrapper from "../components/home/ContactWrapper"
+import FooterWrapper from "../components/common/FooterWrapper"
+
+import HERO from "../assets/hero.jpg"
+import ABOUT from "../assets/about.jpg"
+import CardNewsletter from "../components/home/CardNewsletter"
 
 function HomeScreen() {
   return (
-    <div> 
-        <Navbar/>   
-    <h1 className="text-6xl font-bold underline">
-      Hello 
-  </h1>
-  </div>
+    <div>
+      <Navbar />
+      <HeroWrapper image={HERO} />
+      <div className="w-full px-3 lg:px-20 space-y-10">
+        <div id="feature">
+          <FeatureWrapper />
+        </div>
+        <div id="about">
+          <AboutWrapper image={ABOUT} />
+        </div>
+        <div id="testimonial">
+          <TestimonyWrapper />
+        </div>
+        <CardNewsletter />
+
+        <div id="contact">
+          <ContactWrapper />
+        </div>
+        <FooterWrapper />
+      </div>
+    </div>
   )
 }
 
