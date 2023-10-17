@@ -8,29 +8,31 @@ import FooterWrapper from "../components/common/FooterWrapper"
 
 import HERO from "../assets/hero.jpg"
 import ABOUT from "../assets/about.jpg"
+import CardNewsletter from "../components/home/CardNewsletter"
 
 function HomeScreen() {
   return (
-    <div> 
-        <Navbar/>  
-        <HeroWrapper image={HERO}/> 
-        <div className="w-full px-3 lg:px-20">
-          <div id="feature">
-            <FeatureWrapper/>
-          </div>
-          <div id="about">
-          <AboutWrapper image={ABOUT}/>
-          </div>
-          <div id="testimonials">
-          <TestimonyWrapper/>
-
-          </div>
-          <div id="contact">
-          <ContactWrapper/>
-          </div>
-        <FooterWrapper />
+    <div>
+      <Navbar />
+      <HeroWrapper image={HERO} />
+      <div className="w-full px-3 lg:px-20">
+        <div id="feature">
+          <FeatureWrapper />
         </div>
-  </div>
+        <div id="about">
+          <AboutWrapper image={ABOUT} />
+        </div>
+        <div id="testimonials">
+          <TestimonyWrapper />
+        </div>
+        <CardNewsletter />
+
+        <div id="contact">
+          <ContactWrapper />
+        </div>
+        <FooterWrapper />
+      </div>
+    </div>
   )
 }
 

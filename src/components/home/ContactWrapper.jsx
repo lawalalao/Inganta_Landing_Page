@@ -1,6 +1,7 @@
+import CardNewsletter from "./CardNewsletter";
+
 function ContactWrapper() {
   return (
-    <div>ContactWrapper</div>
   )
 }
 
