@@ -1,11 +1,13 @@
 import Navbar from "../components/common/NavbarWrapper"
-import HERO from "../assets/hero.jpg"
 import HeroWrapper from "../components/home/HeroWrapper"
 import FeatureWrapper from "../components/home/FeatureWrapper"
 import AboutWrapper from "../components/home/AboutWrapper"
 import TestimonyWrapper from "../components/home/TestimonyWrapper"
 import ContactWrapper from "../components/home/ContactWrapper"
 import FooterWrapper from "../components/common/FooterWrapper"
+
+import HERO from "../assets/hero.jpg"
+import ABOUT from "../assets/about.jpg"
 
 function HomeScreen() {
   return (
@@ -17,8 +19,7 @@ function HomeScreen() {
             <FeatureWrapper/>
           </div>
           <div id="about">
-          <AboutWrapper/>
-
+          <AboutWrapper image={ABOUT}/>
           </div>
           <div id="testimonials">
           <TestimonyWrapper/>
