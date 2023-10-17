@@ -39,7 +39,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="lg:hidden flex items-center">
-          <button onClick={toggleMenu} className="text-white">
+          <button onClick={toggleMenu} className="text-black/80">
             {isOpen ? (
               <FontAwesomeIcon icon={faClose} />
             ) : (
@@ -49,7 +49,7 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="lg:hidden w-full flex flex-col gap-3 mt-2 justify-center items-center bg-gray-900">
+        <div className="lg:hidden w-full flex flex-col gap-3 mt-2 justify-center items-center font-semibold">
           <a href="#" className="hover:text-violet-700">
            Home
           </a>

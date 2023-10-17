@@ -12,7 +12,7 @@ function HomeScreen() {
     <div> 
         <Navbar/>  
         <HeroWrapper image={HERO}/> 
-        <div className="w-full px-20">
+        <div className="w-full px-3 lg:px-20">
           <div id="feature">
             <FeatureWrapper/>
           </div>
