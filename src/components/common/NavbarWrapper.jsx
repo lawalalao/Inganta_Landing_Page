@@ -25,10 +25,10 @@ const Navbar = () => {
           <a href="#" className="hover:text-violet-700">
            Home
           </a>
-          <a href="#features" className="hover:text-violet-700">
+          <a href="#feature" className="hover:text-violet-700">
             Features
           </a>
-          <a href="#testimonials" className="hover:text-violet-700">
+          <a href="#testimonial" className="hover:text-violet-700">
             Testimonials
           </a>
           <a href="#about" className="hover:text-violet-700">
@@ -53,10 +53,10 @@ const Navbar = () => {
           <a href="#" className="hover:text-violet-700">
            Home
           </a>
-          <a href="#features" className="hover:text-violet-700">
+          <a href="#feature" className="hover:text-violet-700">
             Features
           </a>
-          <a href="#testimonials" className="hover:text-violet-700">
+          <a href="#testimonial" className="hover:text-violet-700">
             Testimonials
           </a>
           <a href="#about" className="hover:text-violet-700">
