@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // eslint-disable-next-line react/prop-types
 function HeroWrapper({ image }) {
   return (
-    <div className="relative w-full h-[350px]">
+    <div className="relative w-full h-[100vh]">
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div>
       <img src={image} alt="hero" className="w-full h-full object-cover z-100" />
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white z-200 space-y-6">
